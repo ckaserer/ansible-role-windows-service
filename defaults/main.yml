@@ -1,5 +1,5 @@
 ---
-services:
-  - name: "Windows Update"
-    state: "stopped"
+# services:
+#   - name: "Windows Update"
+#     state: "stopped"
 ...
