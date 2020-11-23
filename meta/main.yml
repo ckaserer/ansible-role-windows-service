@@ -1,0 +1,14 @@
+---
+galaxy_info:
+  role_name: windows_services
+  author: ckaserer
+  description: "change service state"
+  license: GPLv3
+  min_ansible_version: 2.10
+  platforms:
+    - name: windows
+  galaxy_tags:
+    - windows
+    - gepardec
+dependencies: []
+...

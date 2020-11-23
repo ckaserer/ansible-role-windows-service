@@ -1,0 +1,13 @@
+---
+- name: Update services
+  ansible.windows.win_service:
+    name: "{{ item.name }}"
+    state: "{{ item.state }}"
+  with_items: "{{ services }}"
+  register: service_result
+
+- name: Print debug info
+  debug:
+    var: service_result
+    verbosity: 1
+...
